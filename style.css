@@ -1,0 +1,142 @@
+h1 {
+	color: #FEFFE3;
+	font-family: 'Yrsa', serif;
+	font-size: 96px;
+	position: absolute;
+	transform: translate(90%, 200%);
+	text-align: center;
+
+}
+h2 {
+	color: #FEFFE3;
+	font-family: 'Merriweather', serif;
+	font-size: 48px;
+	padding: 40px;
+}
+
+h3 {
+	color: #FEFFE3;
+	font-family: 'Yrsa', serif;
+	font-size: 24px
+}
+
+h4 {
+	color: #FEFFE3;
+	font-family: 'Merriweather', serif;
+	font-size: 24px
+}
+
+ul {
+	color: #FEFFE3;
+	font-family: 'Merriweather', serif;
+	font-size: 15px
+}
+
+p {
+	color: #FEFFE3;
+	font-family: 'Merriweather', serif;
+	font-size: 36px;
+	padding: 20px;
+}
+
+body{
+	text-align: center;
+	background-color: black
+}
+
+a{
+	text-decoration: none;
+}
+
+#homepagebanner {
+	width: 100%;
+}
+
+#logo {
+	width: 20%;
+	position: absolute;
+	top:0;
+	left:0;
+	
+}
+
+.cardImgs {
+	height: 330px;
+	width: 330px;
+	object-fit: cover;
+	border-radius: 50px;
+	box-shadow: 5px 5px 30px #c59a4a;
+}
+
+.cardImgs:hover {
+	opacity: 0.8;
+}
+
+#button:hover {
+	border: solid white;
+	color: #c59a4a;	
+}
+
+ul {
+	list-style-type: none;
+	padding: 10px;
+}
+li {
+	list-style-type: none;
+	padding: 10px;
+}
+
+#button {
+	background-color: #1F1F1F;
+	border: 4px solid #c59a4a;
+	padding: 10px;
+	border-radius: 20px;
+	box-shadow: 5px 10px 10px black;
+	position: absolute;
+	top: 450px;
+	left: 590px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#bannerDiv {
+	display: flex;
+}
+
+#cardsDiv {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 10px;
+}
+
+#cardsDiv2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 30px;
+}
+
+#listDiv {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+	h1 {
+		font-size: 50px;
+	}
+	#button {
+		display: none;
+	}
+}
+
+
